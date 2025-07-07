@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+/*@tailwind utilities;
+
+ @layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+*/
+
+/* @import "tailwindcss/utilities.css" layer(utilities); */
+/*@layer base {
+  h1 {
+    font-size: var(--text-2xl);
+  }
+  h2 {
+    font-size: var(--text-1xl);
+  }
+}*/
+/* class="bg-gray-100 font-serif text-gray-900"*/
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  /* --background-color-red: red; */
+  /*--font-family: "Georgia", serif; */
+  --color-X: blue;
+}
+
+@layer components {
+  /* .habit {
+    background-color: --background-color-red;
+  } */
+}
